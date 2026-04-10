@@ -1,0 +1,12 @@
+.augsa {
+  text-align: center;
+  background-color: gray;
+  width: auto;
+  height: 30px;
+}
+.ievadeslogs {
+  width: 500px;
+  height: 200px;
+  align-items: center;
+  background-color: darkblue;
+}

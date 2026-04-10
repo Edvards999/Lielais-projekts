@@ -1,29 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
-    <meta charset="UTF-8">
-
-    <title>Document</title>
-    <link rel="stylesheet" href="stils.css">
+  <meta charset="utf-8">
+  <title>Dzimšanas dienas</title>
+  <link rel="stylesheet" href="styles.css">
+  
 </head>
-<body>
-    <h1>Javascript <script></script></h1>
-    <img src="https://i.ytimg.com/vi/kyR3pgXJB80/hqdefault.jpg" alt="Green fn">
-    <img src="mandarin2.png" alt="mandarin" height="400px" width="500px">
 
+<div class="augsa">
+  <p>Kādi slaveniem cilvēki ir dzimuši tavā dzimšanas dienā?</p>
+</div>
 
-    <h1 id="izvade"></h1>
-    <h1 id="izvadedatums"></h1>
-    <script src="dom.js"></script>
-    <script src="tilllightsout.js"></script>
-    <script src="javas.js"></script>
-    <script src="onjekti.js"></script>
-    <script src="masivi.js"></script>
-    <script src="komandas.js"></script>
-    <script src="funkcijas.js"></script>
-    <script src="cikli.js"></script>
-    <script src="uzdevums.js"></script>
-    <script src="script.js"></script>
-    <script src="tiekaszin.js"></script>
+<div class="ievadeslogs">
+  <label for="mēnesi">Ievadi mēnesi:</label>
+  <select name="mēnesi" id="mēnesi">
+    <option value="jan">Janvāris</option>
+    <option value="feb">Februāris</option>
+    <option value="mart">Marts</option>
+    <option value="aprl">Aprīlis</option>
+    <option value="maj">Maijs</option>
+    <option value="jun">Junījs</option>
+    <option value="jul">Julijs</option>
+    <option value="aug">Augusts</option>
+    <option value="sep">Septembris</option>
+    <option value="okt">Oktobris</option>
+    <option value="nov">Novembris</option>
+    <option value="dec">Decembris</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+<p>Ievadiet savu dzimšanas datumu, lai noskaidrotu, ar kuru slavenību tas sakrīt:</p>
+
+</div>
+  <script src="index.js"></script>
 </body>
+
 </html>
