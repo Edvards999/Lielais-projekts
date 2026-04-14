@@ -2,11 +2,58 @@
   text-align: center;
   background-color: gray;
   width: auto;
-  height: 30px;
+  height: 40px;
+
 }
 .ievadeslogs {
-  width: 500px;
-  height: 200px;
+  width: 550px;
+  height: 150px;
   align-items: center;
-  background-color: darkblue;
+  background-color: blue;
+}
+
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.closebtn:hover {
+  color: black;
+}
+
+.personibas {
+  justify-content: center;
+  content: "";
+  clear: both;
+  display: table;
+}
+.img {
+  width: 200px;
+  height: 400px;
+}
+
+.parent {
+  width: 300px; /* I took the width from your post and placed it in css */
+  height: 450px;
+  float: left;
+  padding: 40px;
+
+}
+
+/* This will style any <img> element in .parent div */
+.parent img {
+  height: 70%;
+  width: 70%;
+
 }
