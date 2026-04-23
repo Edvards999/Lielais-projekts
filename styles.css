@@ -5,14 +5,6 @@
   height: 40px;
 
 }
-.ievadeslogs {
-  width: 550px;
-  height: 150px;
-  align-items: center;
-  background-color: blue;
-}
-
-
 .alert {
   padding: 20px;
   background-color: #f44336;
@@ -44,16 +36,152 @@
 }
 
 .parent {
-  width: 300px; /* I took the width from your post and placed it in css */
+  width: 300px;
   height: 450px;
   float: left;
   padding: 40px;
 
 }
-
-/* This will style any <img> element in .parent div */
 .parent img {
-  height: 70%;
-  width: 70%;
+  height: 90%;
+  width: 100%;
+}
 
+* {
+box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body { 
+  font-family: Arial, sans-serif;
+  background: #e8f4f8;
+  min-height: 100vh;
+  padding: 30px 16px;
+}
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.box {
+ background: #cde8f5;
+ border: 2px solid #a0c8e0;
+ border-radius: 6px;
+ padding: 20px 24px 24px;
+}
+h1 {
+  font-size: 17px; 
+  font-weight: bold; 
+  margin-bottom: 16px; 
+  line-height: 1.4; 
+  color: #000; 
+}
+.form-row { 
+  display: flex; 
+  align-items: center;
+   gap: 10px; 
+   flex-wrap: wrap; 
+   margin-bottom: 14px; 
+}
+label {
+  font-size: 14px; 
+  color: #000; 
+}
+select { 
+  padding: 4px 8px; 
+  font-size: 14px; 
+  border: 1px solid #999; 
+  border-radius: 3px; 
+  background: #fff; 
+  cursor: pointer; 
+}
+button { padding: 5px 14px; 
+  font-size: 14px; 
+  border: 2px outset #ccc;
+  background: #d4d0c8; 
+  cursor: pointer; 
+  border-radius: 2px; 
+}
+button:active { 
+  border-style: inset;
+}
+.top-bar { display: flex;
+  align-items: center; 
+  gap: 16px; 
+  margin-bottom: 24px; 
+}
+.back-btn { 
+  padding: 5px 14px; 
+  font-size: 14px; 
+  border: 2px outset #ccc; 
+  background: #d4d0c8; cursor: 
+  pointer; border-radius: 2px; 
+  text-decoration: none; 
+  color: #000; 
+}
+.back-btn:active { 
+  border-style: inset; 
+}
+.page-title { 
+  font-size: 18px; 
+  font-weight: bold; 
+  color: #000; 
+}
+.status { 
+  font-size: 14px; 
+  color: #555; padding: 10px 0;
+ }
+.error  { 
+  font-size: 14px; 
+  color: #b91c1c; 
+  padding: 10px 0; 
+}
+.grid { display: grid; 
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+  gap: 16px; 
+  margin-top: 8px; 
+}
+.card { 
+  background: #fff; 
+  border: 1px solid #b0cfe0; 
+  border-radius: 8px; 
+  overflow: hidden; 
+  display: flex; 
+  flex-direction: column; }
+.photo-wrap { 
+  width: 100%; 
+  aspect-ratio: 1 / 1; 
+  background: #dbeafe; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  overflow: hidden; 
+}
+.photo-wrap img { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  display: block; 
+}
+.avatar-fallback { 
+  font-size: 48px; 
+  font-weight: bold; 
+  color: #1e40af; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 100%; 
+  height: 100%; 
+}
+.card-body { 
+  padding: 12px 14px;
+}
+.name { 
+  font-size: 15px; 
+  font-weight: bold; 
+  color: #111; 
+  margin-bottom: 4px; 
+}
+.meta { font-size: 12px;
+   color: #555;
 }
